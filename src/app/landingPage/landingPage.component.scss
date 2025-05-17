@@ -1,0 +1,24 @@
+*{
+    color: white;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+    font-size: 20px;    
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../assats/img/hero_bg.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
