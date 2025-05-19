@@ -18,6 +18,24 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Economica";
+  src: url("assets/fonts/Economica-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Economica";
+  src: url("assets/fonts/Economica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .fontRaleway {
   font-family: "Raleway";
+}
+
+.fontEconomica {
+  font-family: "Economica";
 }

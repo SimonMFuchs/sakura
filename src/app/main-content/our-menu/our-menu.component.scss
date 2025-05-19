@@ -1,0 +1,51 @@
+section {
+  padding: 64px 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  background-image: url("/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg");
+}
+
+h2 {
+  font-size: 72px;
+  color: #9f0908;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin: 0 128px;
+
+  > img {
+    width: 420px;
+  }
+
+  > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    margin: 0;
+
+    > h3 {
+      text-align: left;
+      font-size: 56px;
+    }
+
+    > table {
+      font-size: 32px;
+      font-weight: bold;
+      color: #675e54;
+
+      > tbody {
+        > tr {
+          > td {
+            padding: 8px 60px 0 0;
+          }
+        }
+      }
+    }
+  }
+}
