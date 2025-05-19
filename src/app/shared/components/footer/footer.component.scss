@@ -10,15 +10,17 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    >img {
-        height: 40px;
-    }
+
 
     >a {
         font-weight: bold;
         text-decoration: none;
-        font-size: 32px;
+        font-size: 24px;
         color: white;
+
+            >img {
+        height: 40px;
+    }
 
         &:hover {
             text-decoration: underline;
