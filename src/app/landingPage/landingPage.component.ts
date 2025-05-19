@@ -7,9 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     imports: [NavbarComponent],
     template: `
     <section>
-        <app-navbar></app-navbar>
+        <div><app-navbar></app-navbar></div>
         <h1 class="fontRaleway">SAKURA RAMEN</h1>
-        <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
+        <h2 class="fontRaleway">THE BEST RAMEN IN TOWN</h2>
     </section>
     `,
     styleUrls: ['./landingPage.component.scss']    
