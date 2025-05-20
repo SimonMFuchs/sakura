@@ -1,28 +1,33 @@
-*{
-    color: white;
+* {
+  color: white;
 }
 
 @import "./../../../styles.scss";
 
 h1 {
-  font-size: 72px;
+  margin-top: 30vh;
+  font-size: 60px;
 }
 
 h2 {
-    font-size: 20px; 
-    font-weight: 400;   
+  font-size: 20px;
+  font-weight: 400;
 }
 
 div {
-    width: 100%;
+  width: 100%;
 }
 
 section {
-    height: 100vh;
-    width: 100%;
-    @include backgroundImageStyling('assets/img/1_hero/JPG/hero_bg.jpg', cover, bottom);
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  width: 100%;
+  @include backgroundImageStyling(
+    "assets/img/1_hero/JPG/hero_bg.jpg",
+    cover,
+    bottom
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }

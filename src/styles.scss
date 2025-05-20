@@ -8,6 +8,18 @@
   background: url($imageUrl) no-repeat $position / $size;
 }
 
+@mixin borderStyling($bStyle) {
+  border-radius: 8px;
+  border: 2px $bStyle white;
+}
+
+@mixin dFlex($jc: center, $ai: center, $g: 0px) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  gap: $g;
+}
+
 $dark_red: #9f0908;
 $dark_red_hover: #b92323;
 
