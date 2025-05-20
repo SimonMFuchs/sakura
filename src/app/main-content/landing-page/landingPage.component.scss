@@ -2,6 +2,8 @@
     color: white;
 }
 
+@import "./../../../styles.scss";
+
 h1 {
   font-size: 72px;
 }
@@ -18,10 +20,7 @@ div {
 section {
     height: 100vh;
     width: 100%;
-    background-image: url('./../../../assets/img/1_hero/JPG/hero_bg.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include backgroundImageStyling('assets/img/1_hero/JPG/hero_bg.jpg', cover, bottom);
     display: flex; 
     flex-direction: column; 
     justify-content: center;

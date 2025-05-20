@@ -4,6 +4,13 @@
   scroll-behavior: smooth;
 }
 
+@mixin backgroundImageStyling($imageUrl, $size, $position) {
+  background: url($imageUrl) no-repeat $position / $size;
+}
+
+$dark_red: #9f0908;
+$dark_red_hover: #b92323;
+
 @font-face {
   font-family: "Raleway";
   src: url("assets/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
